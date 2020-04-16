@@ -1,0 +1,12 @@
+/**
+    Do all of your Transition Configuration here
+*/
+
+$transitionSpeed: 400ms;
+$transitionEasing: ease-in;
+
+@mixin globalTransition($speed: $transitionSpeed, $easing: $transitionEasing) {
+    transition: all $speed $easing
+}
+
+// Just go for your own transitions

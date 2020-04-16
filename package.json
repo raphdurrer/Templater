@@ -2,9 +2,9 @@
   "name": "templater",
   "version": "1.0.0",
   "description": "SCSS Toolbox (just another one)",
-  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "parcel index.html",
+    "build": "parcel build index.html"
   },
   "repository": {
     "type": "git",
@@ -16,7 +16,9 @@
     "url": "https://github.com/raphdurrer/Templater/issues"
   },
   "homepage": "https://github.com/raphdurrer/Templater#readme",
-  "dependencies": {
-    "parcel-bundler": "^1.12.4"
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4",
+    "sass": "^1.26.3",
+    "typescript": "^3.8.3"
   }
 }

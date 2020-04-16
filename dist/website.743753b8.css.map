@@ -1,0 +1,1 @@
+{"version":3,"sources":["scss/website.scss","scss/config/settings/_colors.scss"],"names":[],"mappings":"AAEA,KACE,wBCCM,CDAN","file":"website.743753b8.css","sourceRoot":"..","sourcesContent":["@import \"config/config\";\n\nbody {\n  background-color: $black;\n  color: white;\n}\n","/**\n    Do all the Color definitions here\n*/\n\n$black: #010101;\n$white: #f1f1f1;"]}
